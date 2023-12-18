@@ -68,8 +68,13 @@ body aside .aside-links ul li {
   gap: 12px;
 }
 
+body aside .aside-links ul li:hover a {
+  color: #1DB954;
+}
+
 body aside .aside-links ul li a {
   color: #FFF;
+  transition: 0.7s;
   /* Text/Bold/14 */
   font-family: Inter;
   font-size: 14px;
@@ -289,6 +294,7 @@ body main footer .links ul .main {
 }
 
 body main footer .links ul li {
+  cursor: pointer;
   color: var(--Base-300, #919191);
   margin-bottom: 12px;
   font-family: Inter;
@@ -296,6 +302,11 @@ body main footer .links ul li {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  transition: 0.7s;
+}
+
+body main footer .links ul li:hover {
+  color: #1DB954;
 }
 
 body main footer .socials {

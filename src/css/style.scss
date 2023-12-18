@@ -72,9 +72,15 @@ body {
                     align-items: center;
                     gap: 12px;
 
+                    &:hover{
+                        a{
+                            color: #1DB954;
+                        }
+                    }
+
                     a {
                         color: #FFF;
-
+                        transition: 0.7s;
                         /* Text/Bold/14 */
                         font-family: Inter;
                         font-size: 14px;
@@ -306,6 +312,7 @@ body {
                     }
 
                     li {
+                        cursor: pointer;
                         color: var(--Base-300, #919191);
                         margin-bottom: 12px;
                         font-family: Inter;
@@ -313,6 +320,10 @@ body {
                         font-style: normal;
                         font-weight: 500;
                         line-height: normal;
+                        transition: 0.7s;
+                        &:hover{
+                            color: #1DB954;
+                        }
                     }
                 }
             }
