@@ -209,6 +209,11 @@ body main .tracks-top a {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
+  transition: 0.7s;
+}
+
+body main .tracks-top a:hover {
+  color: white;
 }
 
 body main .all-tracks {
