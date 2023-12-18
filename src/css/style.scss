@@ -224,6 +224,10 @@ body {
                 font-style: normal;
                 font-weight: 500;
                 line-height: 20px;
+                transition: 0.7s;
+                &:hover{
+                    color: white;
+                }
             }
         }
 
